@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 70%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 16px;
+    overflow: auto;
+    box-shadow: 0 0 20px #658d9aa4;
+    background-color: #fff;  
+}
+
+.left{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans';
+    padding: 16px;
+}
+.logo{
+    margin: 16px;
+}
+.title{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    row-gap: 4px;
+    letter-spacing: 8px;
+    margin: 16px;
+}
+.title1{
+    width: 50%;
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+    font-size: 50px;
+    text-transform: uppercase;
+    
+}
+.title2{
+    width: 50%;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.text{
+    width: 82%;
+    height: 100px;
+    font-weight: 600;
+    color: hsl(0, 36%, 70%);
+    margin-left: 16px;
+    line-height: 22px;
+    font-size: 16px;     
+}
+.js{
+    width: 100%;
+    display: flex;
+
+}
+
+.email{
+    width:85%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+    border:solid 1px hsl(0, 36%, 70%);
+    margin-left: 16px;
+    font-size: 16px; 
+    padding-left: 24px;
+    font-family: 'Josefin Sans';  
+}
+.email:focus{
+    
+    background-color: #fff;
+    border-radius: 20px;
+    border:solid 1px hsl(0, 36%, 70%);
+    outline: none;
+}
+.email::placeholder{
+    color: hsl(0, 36%, 70%);
+}
+.button{
+    width: 18%;
+    height: 45px;
+    border-radius: 20px;
+    background: hsl(0, 74%, 74%);
+    border:solid 1px hsl(0, 36%, 70%);
+    margin-left: -18%;
+
+}
+.button-active{
+    background: hsl(0, 80%, 86%);
+    border:solid 1px hsl(0, 74%, 74%);;
+}
+.seta{
+    width: 12px;
+    height: 20px; 
+}
+.error{
+    width: 25px;
+    position: absolute;
+    display: none;
+    margin-left: 305px;
+    margin-top: 10px;
+}
+
+.error-active{
+    display: flex;
+}
+
+.msgErro{
+    width: 82%;
+    height: 100px;
+    font-weight: 600;
+    color: hsl(0, 74%, 74%);
+    margin-left: 16px;
+    padding: 12px;
+    display:flex;
+    visibility: hidden;
+}
+.msgErro-active{
+    display:flex ;
+}
+
+
+.right{
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    
+}
+.imagem{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+.attribution{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 8px;
+    font-size: 13px; 
+    text-align: center; 
+    color: hsl(217, 19%, 35%);
+    font-family: "Manrope";
+    font-weight: 700;
+}
